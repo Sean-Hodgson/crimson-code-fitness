@@ -6,7 +6,7 @@ const profileSchema = mongoose.Schema({
     email: String,
     weight: String,
     Height: String,
-    Interests: [
+    Workouts: [
 
     ]
     

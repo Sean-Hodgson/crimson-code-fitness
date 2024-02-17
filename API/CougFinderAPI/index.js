@@ -15,7 +15,7 @@ const Profile = require("./models/profile.js");
 
 app.get("/profile/:id", (req, res) => {
    Profile.findOne({
-        username:req.params['id']
+        email:req.params['email']
    }, (err, returnProfile) =>{
     if (err) {
        // handle error
@@ -50,7 +50,7 @@ app.post("/cprofile/", (req, res) => {
     let data = req.body;
 
     Profile.findOne({
-        username:data.username
+        email:data.email
    }, (err, returnProfile) =>{
     if (err) {
        // error code
@@ -61,12 +61,12 @@ app.post("/cprofile/", (req, res) => {
      }else{
          const newprofile = new Profile({
             _id: mongoose.Types.ObjectId(),
-            username: data.username,
-            instagramTag: data.instagram,
-            snapchatTag: data.snapchat,
-            favSong: data.song,
-            Major: data.major,
-            interests: ["test"]
+            name: data.name,
+            email: data.email,
+            weight: data.weight,
+            Height: data.height,
+            workouts: ["test"]
+
         });
     newprofile.save()
     console.log(data);
