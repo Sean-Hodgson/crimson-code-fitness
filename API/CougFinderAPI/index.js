@@ -65,6 +65,7 @@ app.post("/cprofile/", (req, res) => {
             email: data.email,
             weight: data.weight,
             Height: data.height,
+            Age: data.age,
             workouts: ["test"]
 
         });
