@@ -2,11 +2,7 @@
 ------
 # Features
 - Login
-- add and delete workoutplan
-- 1 on 1 coaching
-- timer
-- track calories
-- track workout
+- add workoutplan
 
 # Contributors
 - Sean Hodgson
