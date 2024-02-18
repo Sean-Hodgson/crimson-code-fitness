@@ -1,8 +1,11 @@
 # Fitness Tracker
+- Crimson Code Hackathon project
+- Team Name: 04
+- Description: A fitness Tracker website that allows the user to add,edit and keep track of their workout plans
 
 # Features
-- Login 
-- Add workout plan
+- Login authentication
+- Add and make changes to workout plans workout plan
 
 # Contributors
 - Sean Hodgson
