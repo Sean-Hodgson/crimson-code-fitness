@@ -1,8 +1,8 @@
-# Fitness Tracker
-------
+## Fitness Tracker
+
 # Features
-- Login
-- add workoutplan
+- Login 
+- Add workout plan
 
 # Contributors
 - Sean Hodgson
