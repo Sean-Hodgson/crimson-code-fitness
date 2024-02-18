@@ -64,9 +64,9 @@ app.post("/cprofile/", (req, res) => {
             name: data.name,
             email: data.email,
             weight: data.weight,
-            Height: data.height,
-            Age: data.age,
-            workouts: ["test"]
+            height: data.height,
+            age: data.age,
+            workouts: ["pushups"]
 
         });
     newprofile.save()
